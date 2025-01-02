@@ -60,7 +60,7 @@ def main():
     print("当前工作路径: "+getcwd())
     logger.info("当前工作路径: "+getcwd())
     api=input("请输入API地址(可跳过):").rstrip('/')
-    api=api if api else "https://ncm-api.thggdx.eu.org"
+    api=api if api else "https://api.csm.sayqz.com/"
     logger.info("API地址: "+api)
     COOKIE_FILE = ospath.dirname(ospath.abspath(__file__))+'/.NeteaseMusic_Cookie'
     if 'temp' in COOKIE_FILE.lower():
